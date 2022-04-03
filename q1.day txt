@@ -1,0 +1,14 @@
+How to compare two JSON have the same properties without order.?
+
+var obj1 = { name : "Person 1",
+            age : 5 
+          };
+
+var obj1 = { name : "Person 1",
+            age : 5 
+          };
+
+ let isEqual = JSON.stringyfy(obj1) === JSON.stringyfy(obj2);
+
+
+console.log(isEqual);
